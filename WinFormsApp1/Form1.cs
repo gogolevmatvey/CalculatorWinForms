@@ -9,6 +9,7 @@ namespace CalculatorWinForms
         string selectedOperation = "";
         bool isOperationClicked = false;
         bool isErrorOccured = false;
+        bool noSecondArgument = false;
         string memory = "";
 
         public Form1()
@@ -52,10 +53,14 @@ namespace CalculatorWinForms
 
         private void OperationClick(object sender, EventArgs e)
         {
-                argument1 = double.Parse(textBox.Text);
-                Button pressedButton = (Button)sender;
-                selectedOperation = pressedButton.Text;
-                isOperationClicked = true;         
+            argument1 = double.Parse(textBox.Text);
+            Button pressedButton = (Button)sender;
+            selectedOperation = pressedButton.Text;
+            isOperationClicked = true;
+            if (argument2 != 0)
+            {
+                argument2 = 0;
+            }
         }
 
         private void SqrtClick(object sender, EventArgs e)
@@ -84,7 +89,7 @@ namespace CalculatorWinForms
         private void EqualityClick(object sender, EventArgs e)
         {
             if (argument2 == 0)
-            {
+            {               
                 argument2 = double.Parse(textBox.Text);
             }
             double result;
@@ -107,16 +112,16 @@ namespace CalculatorWinForms
                     textBox.Text = result.ToString();
                     break;
                 case "/":
-                    try
+                    if (argument2 == 0)
+                    {
+                        textBox.Text = "Cannot divide by zero";
+                        isErrorOccured = true;
+                    }
+                    else
                     {
                         result = argument1 / argument2;
                         argument1 = result;
                         textBox.Text = result.ToString();
-                    }
-                    catch (DivideByZeroException)
-                    {
-                        textBox.Text = "Cannot divide by zero";
-                        isErrorOccured = true;
                     }
                     break;
             }
@@ -132,6 +137,7 @@ namespace CalculatorWinForms
             memory = "";
             isOperationClicked = false;
             isErrorOccured = false;
+            noSecondArgument = false;
 
             foreach (Control control in this.Controls)
             {
@@ -162,7 +168,7 @@ namespace CalculatorWinForms
                     isLastSymbolRemovable = true;
             }
 
-            if (isLastSymbolRemovable)
+            if (isLastSymbolRemovable && !textBox.Text.Contains("E"))
             {
                 if (textBox.Text != "0" && textBox.Text.Length != 1)
                     textBox.Text = textBox.Text.Remove(textBox.Text.Length - 1);

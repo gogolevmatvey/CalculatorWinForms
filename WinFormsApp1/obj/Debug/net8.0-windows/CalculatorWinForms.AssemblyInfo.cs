@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CalculatorWinForms")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0966379b2bd6cd5e8a189a0685af5d0f922cb5c5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8af8201c49dd812aa92d5eba38323e64b184184e")]
 [assembly: System.Reflection.AssemblyProductAttribute("CalculatorWinForms")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CalculatorWinForms")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

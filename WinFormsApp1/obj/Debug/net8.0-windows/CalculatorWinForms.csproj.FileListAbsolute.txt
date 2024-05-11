@@ -65,3 +65,20 @@ C:\Users\Матвей\Desktop\CalculatorXPWinForms\WinFormsApp1\obj\Debug\net8.0
 C:\Users\Матвей\Desktop\CalculatorXPWinForms\WinFormsApp1\obj\Debug\net8.0-windows\CalculatorWinForms.pdb
 C:\Users\Матвей\Desktop\CalculatorXPWinForms\WinFormsApp1\obj\Debug\net8.0-windows\CalculatorWinForms.genruntimeconfig.cache
 C:\Users\Матвей\Desktop\CalculatorXPWinForms\WinFormsApp1\obj\Debug\net8.0-windows\ref\CalculatorWinForms.dll
+C:\VS Projects\CalculatorWinForms\WinFormsApp1\bin\Debug\net8.0-windows\CalculatorWinForms.exe
+C:\VS Projects\CalculatorWinForms\WinFormsApp1\bin\Debug\net8.0-windows\CalculatorWinForms.deps.json
+C:\VS Projects\CalculatorWinForms\WinFormsApp1\bin\Debug\net8.0-windows\CalculatorWinForms.runtimeconfig.json
+C:\VS Projects\CalculatorWinForms\WinFormsApp1\bin\Debug\net8.0-windows\CalculatorWinForms.dll
+C:\VS Projects\CalculatorWinForms\WinFormsApp1\bin\Debug\net8.0-windows\CalculatorWinForms.pdb
+C:\VS Projects\CalculatorWinForms\WinFormsApp1\obj\Debug\net8.0-windows\CalculatorWinForms.Form1.resources
+C:\VS Projects\CalculatorWinForms\WinFormsApp1\obj\Debug\net8.0-windows\CalculatorWinForms.csproj.GenerateResource.cache
+C:\VS Projects\CalculatorWinForms\WinFormsApp1\obj\Debug\net8.0-windows\CalculatorWinForms.GeneratedMSBuildEditorConfig.editorconfig
+C:\VS Projects\CalculatorWinForms\WinFormsApp1\obj\Debug\net8.0-windows\CalculatorWinForms.AssemblyInfoInputs.cache
+C:\VS Projects\CalculatorWinForms\WinFormsApp1\obj\Debug\net8.0-windows\CalculatorWinForms.AssemblyInfo.cs
+C:\VS Projects\CalculatorWinForms\WinFormsApp1\obj\Debug\net8.0-windows\CalculatorWinForms.csproj.CoreCompileInputs.cache
+C:\VS Projects\CalculatorWinForms\WinFormsApp1\obj\Debug\net8.0-windows\CalculatorWinForms.sourcelink.json
+C:\VS Projects\CalculatorWinForms\WinFormsApp1\obj\Debug\net8.0-windows\CalculatorWinForms.dll
+C:\VS Projects\CalculatorWinForms\WinFormsApp1\obj\Debug\net8.0-windows\refint\CalculatorWinForms.dll
+C:\VS Projects\CalculatorWinForms\WinFormsApp1\obj\Debug\net8.0-windows\CalculatorWinForms.pdb
+C:\VS Projects\CalculatorWinForms\WinFormsApp1\obj\Debug\net8.0-windows\CalculatorWinForms.genruntimeconfig.cache
+C:\VS Projects\CalculatorWinForms\WinFormsApp1\obj\Debug\net8.0-windows\ref\CalculatorWinForms.dll
