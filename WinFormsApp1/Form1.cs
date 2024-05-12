@@ -1,4 +1,4 @@
-
+п»ї
 
 namespace CalculatorWinForms
 {
@@ -29,7 +29,8 @@ namespace CalculatorWinForms
                 textBox.Clear();
                 isErrorOccured = false;
                 isOperationClicked = false;
-            }           
+            } 
+            //if (textBox.Text.Contains(E))
             Button pressedButton = (Button)sender;
             textBox.Text += pressedButton.Text;
             textBox.Text = double.Parse(textBox.Text).ToString();
@@ -160,7 +161,7 @@ namespace CalculatorWinForms
         {
             string lastSymbol = textBox.Text[textBox.Text.Length - 1].ToString();
 
-            // Проверка является ли последний символ числом или запятой
+            // РџСЂРѕРІРµСЂРєР° СЏРІР»СЏРµС‚СЃСЏ Р»Рё РїРѕСЃР»РµРґРЅРёР№ СЃРёРјРІРѕР» С‡РёСЃР»РѕРј РёР»Рё Р·Р°РїСЏС‚РѕР№
             bool isLastSymbolRemovable = double.TryParse(lastSymbol, out double output);
             if (!isLastSymbolRemovable) 
             {
@@ -215,7 +216,15 @@ namespace CalculatorWinForms
 
         private void textBox_TextChanged(object sender, EventArgs e)
         {
-
+            if (textBox.Text.Contains("в€ћ"))
+            {
+                foreach (Control control in this.Controls)
+                {
+                    control.Enabled = false;
+                }
+                buttonClear.Enabled = true;
+                buttonClearEntry.Enabled = true;
+            }
         }
     }
 }
