@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             textBox = new TextBox();
             button1 = new Button();
             button2 = new Button();
@@ -62,12 +63,11 @@
             // textBox
             // 
             textBox.BackColor = Color.White;
-            textBox.Location = new Point(10, 9);
-            textBox.Margin = new Padding(3, 2, 3, 2);
+            textBox.Location = new Point(11, 12);
             textBox.Multiline = true;
             textBox.Name = "textBox";
             textBox.ReadOnly = true;
-            textBox.Size = new Size(680, 44);
+            textBox.Size = new Size(524, 57);
             textBox.TabIndex = 2;
             textBox.Text = "0";
             textBox.TextAlign = HorizontalAlignment.Right;
@@ -75,10 +75,9 @@
             // 
             // button1
             // 
-            button1.Location = new Point(311, 243);
-            button1.Margin = new Padding(3, 2, 3, 2);
+            button1.Location = new Point(103, 317);
             button1.Name = "button1";
-            button1.Size = new Size(44, 30);
+            button1.Size = new Size(50, 40);
             button1.TabIndex = 3;
             button1.Text = "1";
             button1.UseVisualStyleBackColor = true;
@@ -86,10 +85,9 @@
             // 
             // button2
             // 
-            button2.Location = new Point(388, 243);
-            button2.Margin = new Padding(3, 2, 3, 2);
+            button2.Location = new Point(191, 317);
             button2.Name = "button2";
-            button2.Size = new Size(44, 30);
+            button2.Size = new Size(50, 40);
             button2.TabIndex = 4;
             button2.Text = "2";
             button2.UseVisualStyleBackColor = true;
@@ -97,10 +95,9 @@
             // 
             // button3
             // 
-            button3.Location = new Point(468, 243);
-            button3.Margin = new Padding(3, 2, 3, 2);
+            button3.Location = new Point(283, 317);
             button3.Name = "button3";
-            button3.Size = new Size(44, 30);
+            button3.Size = new Size(50, 40);
             button3.TabIndex = 5;
             button3.Text = "3";
             button3.UseVisualStyleBackColor = true;
@@ -108,10 +105,9 @@
             // 
             // button4
             // 
-            button4.Location = new Point(311, 175);
-            button4.Margin = new Padding(3, 2, 3, 2);
+            button4.Location = new Point(103, 226);
             button4.Name = "button4";
-            button4.Size = new Size(44, 30);
+            button4.Size = new Size(50, 40);
             button4.TabIndex = 6;
             button4.Text = "4";
             button4.UseVisualStyleBackColor = true;
@@ -119,10 +115,9 @@
             // 
             // button5
             // 
-            button5.Location = new Point(388, 175);
-            button5.Margin = new Padding(3, 2, 3, 2);
+            button5.Location = new Point(191, 226);
             button5.Name = "button5";
-            button5.Size = new Size(44, 30);
+            button5.Size = new Size(50, 40);
             button5.TabIndex = 7;
             button5.Text = "5";
             button5.UseVisualStyleBackColor = true;
@@ -130,10 +125,9 @@
             // 
             // button6
             // 
-            button6.Location = new Point(468, 175);
-            button6.Margin = new Padding(3, 2, 3, 2);
+            button6.Location = new Point(283, 226);
             button6.Name = "button6";
-            button6.Size = new Size(44, 30);
+            button6.Size = new Size(50, 40);
             button6.TabIndex = 8;
             button6.Text = "6";
             button6.UseVisualStyleBackColor = true;
@@ -141,10 +135,9 @@
             // 
             // button7
             // 
-            button7.Location = new Point(311, 115);
-            button7.Margin = new Padding(3, 2, 3, 2);
+            button7.Location = new Point(103, 146);
             button7.Name = "button7";
-            button7.Size = new Size(44, 30);
+            button7.Size = new Size(50, 40);
             button7.TabIndex = 9;
             button7.Text = "7";
             button7.UseVisualStyleBackColor = true;
@@ -152,10 +145,9 @@
             // 
             // button8
             // 
-            button8.Location = new Point(388, 115);
-            button8.Margin = new Padding(3, 2, 3, 2);
+            button8.Location = new Point(191, 146);
             button8.Name = "button8";
-            button8.Size = new Size(44, 30);
+            button8.Size = new Size(50, 40);
             button8.TabIndex = 10;
             button8.Text = "8";
             button8.UseVisualStyleBackColor = true;
@@ -163,10 +155,9 @@
             // 
             // button9
             // 
-            button9.Location = new Point(468, 115);
-            button9.Margin = new Padding(3, 2, 3, 2);
+            button9.Location = new Point(283, 146);
             button9.Name = "button9";
-            button9.Size = new Size(44, 30);
+            button9.Size = new Size(50, 40);
             button9.TabIndex = 11;
             button9.Text = "9";
             button9.UseVisualStyleBackColor = true;
@@ -174,10 +165,9 @@
             // 
             // button0
             // 
-            button0.Location = new Point(311, 297);
-            button0.Margin = new Padding(3, 2, 3, 2);
+            button0.Location = new Point(103, 389);
             button0.Name = "button0";
-            button0.Size = new Size(44, 30);
+            button0.Size = new Size(50, 40);
             button0.TabIndex = 12;
             button0.Text = "0";
             button0.UseVisualStyleBackColor = true;
@@ -185,10 +175,9 @@
             // 
             // buttonAdd
             // 
-            buttonAdd.Location = new Point(551, 297);
-            buttonAdd.Margin = new Padding(3, 2, 3, 2);
+            buttonAdd.Location = new Point(378, 389);
             buttonAdd.Name = "buttonAdd";
-            buttonAdd.Size = new Size(44, 30);
+            buttonAdd.Size = new Size(50, 40);
             buttonAdd.TabIndex = 13;
             buttonAdd.Text = "+";
             buttonAdd.UseVisualStyleBackColor = true;
@@ -196,10 +185,9 @@
             // 
             // buttonSub
             // 
-            buttonSub.Location = new Point(551, 243);
-            buttonSub.Margin = new Padding(3, 2, 3, 2);
+            buttonSub.Location = new Point(378, 317);
             buttonSub.Name = "buttonSub";
-            buttonSub.Size = new Size(44, 30);
+            buttonSub.Size = new Size(50, 40);
             buttonSub.TabIndex = 14;
             buttonSub.Text = "-";
             buttonSub.UseVisualStyleBackColor = true;
@@ -207,10 +195,9 @@
             // 
             // buttonMul
             // 
-            buttonMul.Location = new Point(551, 175);
-            buttonMul.Margin = new Padding(3, 2, 3, 2);
+            buttonMul.Location = new Point(378, 226);
             buttonMul.Name = "buttonMul";
-            buttonMul.Size = new Size(44, 30);
+            buttonMul.Size = new Size(50, 40);
             buttonMul.TabIndex = 15;
             buttonMul.Text = "*";
             buttonMul.UseVisualStyleBackColor = true;
@@ -218,10 +205,9 @@
             // 
             // buttonDiv
             // 
-            buttonDiv.Location = new Point(551, 115);
-            buttonDiv.Margin = new Padding(3, 2, 3, 2);
+            buttonDiv.Location = new Point(378, 146);
             buttonDiv.Name = "buttonDiv";
-            buttonDiv.Size = new Size(44, 30);
+            buttonDiv.Size = new Size(50, 40);
             buttonDiv.TabIndex = 16;
             buttonDiv.Text = "/";
             buttonDiv.UseVisualStyleBackColor = true;
@@ -229,10 +215,9 @@
             // 
             // buttonSqrt
             // 
-            buttonSqrt.Location = new Point(629, 115);
-            buttonSqrt.Margin = new Padding(3, 2, 3, 2);
+            buttonSqrt.Location = new Point(467, 146);
             buttonSqrt.Name = "buttonSqrt";
-            buttonSqrt.Size = new Size(44, 30);
+            buttonSqrt.Size = new Size(50, 40);
             buttonSqrt.TabIndex = 17;
             buttonSqrt.Text = "sqrt";
             buttonSqrt.UseVisualStyleBackColor = true;
@@ -240,10 +225,9 @@
             // 
             // buttonPercent
             // 
-            buttonPercent.Location = new Point(629, 175);
-            buttonPercent.Margin = new Padding(3, 2, 3, 2);
+            buttonPercent.Location = new Point(467, 226);
             buttonPercent.Name = "buttonPercent";
-            buttonPercent.Size = new Size(44, 30);
+            buttonPercent.Size = new Size(50, 40);
             buttonPercent.TabIndex = 18;
             buttonPercent.Text = "%";
             buttonPercent.UseVisualStyleBackColor = true;
@@ -251,10 +235,9 @@
             // 
             // buttonInverse
             // 
-            buttonInverse.Location = new Point(629, 243);
-            buttonInverse.Margin = new Padding(3, 2, 3, 2);
+            buttonInverse.Location = new Point(467, 317);
             buttonInverse.Name = "buttonInverse";
-            buttonInverse.Size = new Size(44, 30);
+            buttonInverse.Size = new Size(50, 40);
             buttonInverse.TabIndex = 19;
             buttonInverse.Text = "1/x";
             buttonInverse.UseVisualStyleBackColor = true;
@@ -262,10 +245,9 @@
             // 
             // buttonEquality
             // 
-            buttonEquality.Location = new Point(629, 297);
-            buttonEquality.Margin = new Padding(3, 2, 3, 2);
+            buttonEquality.Location = new Point(467, 389);
             buttonEquality.Name = "buttonEquality";
-            buttonEquality.Size = new Size(44, 30);
+            buttonEquality.Size = new Size(50, 40);
             buttonEquality.TabIndex = 20;
             buttonEquality.Text = "=";
             buttonEquality.UseVisualStyleBackColor = true;
@@ -274,9 +256,10 @@
             // buttonClear
             // 
             buttonClear.ForeColor = Color.Red;
-            buttonClear.Location = new Point(613, 73);
+            buttonClear.Location = new Point(449, 90);
+            buttonClear.Margin = new Padding(3, 4, 3, 4);
             buttonClear.Name = "buttonClear";
-            buttonClear.Size = new Size(75, 30);
+            buttonClear.Size = new Size(86, 40);
             buttonClear.TabIndex = 21;
             buttonClear.Text = "C";
             buttonClear.UseVisualStyleBackColor = true;
@@ -284,10 +267,9 @@
             // 
             // buttonPoint
             // 
-            buttonPoint.Location = new Point(468, 297);
-            buttonPoint.Margin = new Padding(3, 2, 3, 2);
+            buttonPoint.Location = new Point(283, 389);
             buttonPoint.Name = "buttonPoint";
-            buttonPoint.Size = new Size(44, 30);
+            buttonPoint.Size = new Size(50, 40);
             buttonPoint.TabIndex = 22;
             buttonPoint.Text = ",";
             buttonPoint.UseVisualStyleBackColor = true;
@@ -295,10 +277,9 @@
             // 
             // buttonSign
             // 
-            buttonSign.Location = new Point(388, 297);
-            buttonSign.Margin = new Padding(3, 2, 3, 2);
+            buttonSign.Location = new Point(191, 389);
             buttonSign.Name = "buttonSign";
-            buttonSign.Size = new Size(44, 30);
+            buttonSign.Size = new Size(50, 40);
             buttonSign.TabIndex = 23;
             buttonSign.Text = "+/-";
             buttonSign.UseVisualStyleBackColor = true;
@@ -307,9 +288,10 @@
             // buttonClearEntry
             // 
             buttonClearEntry.ForeColor = Color.Red;
-            buttonClearEntry.Location = new Point(505, 73);
+            buttonClearEntry.Location = new Point(325, 90);
+            buttonClearEntry.Margin = new Padding(3, 4, 3, 4);
             buttonClearEntry.Name = "buttonClearEntry";
-            buttonClearEntry.Size = new Size(75, 30);
+            buttonClearEntry.Size = new Size(86, 40);
             buttonClearEntry.TabIndex = 24;
             buttonClearEntry.Text = "CE";
             buttonClearEntry.UseVisualStyleBackColor = true;
@@ -318,9 +300,10 @@
             // buttonBackspace
             // 
             buttonBackspace.ForeColor = Color.Red;
-            buttonBackspace.Location = new Point(399, 73);
+            buttonBackspace.Location = new Point(204, 90);
+            buttonBackspace.Margin = new Padding(3, 4, 3, 4);
             buttonBackspace.Name = "buttonBackspace";
-            buttonBackspace.Size = new Size(75, 30);
+            buttonBackspace.Size = new Size(86, 40);
             buttonBackspace.TabIndex = 25;
             buttonBackspace.Text = "Backspace";
             buttonBackspace.UseVisualStyleBackColor = true;
@@ -329,10 +312,9 @@
             // buttonMemoryRead
             // 
             buttonMemoryRead.ForeColor = Color.Red;
-            buttonMemoryRead.Location = new Point(239, 175);
-            buttonMemoryRead.Margin = new Padding(3, 2, 3, 2);
+            buttonMemoryRead.Location = new Point(21, 226);
             buttonMemoryRead.Name = "buttonMemoryRead";
-            buttonMemoryRead.Size = new Size(44, 30);
+            buttonMemoryRead.Size = new Size(50, 40);
             buttonMemoryRead.TabIndex = 26;
             buttonMemoryRead.Text = "MR";
             buttonMemoryRead.UseVisualStyleBackColor = true;
@@ -341,10 +323,9 @@
             // buttonMemoryClear
             // 
             buttonMemoryClear.ForeColor = Color.Red;
-            buttonMemoryClear.Location = new Point(239, 115);
-            buttonMemoryClear.Margin = new Padding(3, 2, 3, 2);
+            buttonMemoryClear.Location = new Point(21, 146);
             buttonMemoryClear.Name = "buttonMemoryClear";
-            buttonMemoryClear.Size = new Size(44, 30);
+            buttonMemoryClear.Size = new Size(50, 40);
             buttonMemoryClear.TabIndex = 27;
             buttonMemoryClear.Text = "MC";
             buttonMemoryClear.UseVisualStyleBackColor = true;
@@ -353,10 +334,9 @@
             // buttonMemorySave
             // 
             buttonMemorySave.ForeColor = Color.Red;
-            buttonMemorySave.Location = new Point(239, 243);
-            buttonMemorySave.Margin = new Padding(3, 2, 3, 2);
+            buttonMemorySave.Location = new Point(21, 317);
             buttonMemorySave.Name = "buttonMemorySave";
-            buttonMemorySave.Size = new Size(44, 30);
+            buttonMemorySave.Size = new Size(50, 40);
             buttonMemorySave.TabIndex = 28;
             buttonMemorySave.Text = "MS";
             buttonMemorySave.UseVisualStyleBackColor = true;
@@ -365,10 +345,9 @@
             // buttonMemoryPlus
             // 
             buttonMemoryPlus.ForeColor = Color.Red;
-            buttonMemoryPlus.Location = new Point(239, 297);
-            buttonMemoryPlus.Margin = new Padding(3, 2, 3, 2);
+            buttonMemoryPlus.Location = new Point(21, 389);
             buttonMemoryPlus.Name = "buttonMemoryPlus";
-            buttonMemoryPlus.Size = new Size(44, 30);
+            buttonMemoryPlus.Size = new Size(50, 40);
             buttonMemoryPlus.TabIndex = 29;
             buttonMemoryPlus.Text = "M+";
             buttonMemoryPlus.UseVisualStyleBackColor = true;
@@ -378,17 +357,17 @@
             // 
             memoryLabel.AutoSize = true;
             memoryLabel.BorderStyle = BorderStyle.Fixed3D;
-            memoryLabel.Location = new Point(251, 81);
+            memoryLabel.Location = new Point(35, 101);
             memoryLabel.Name = "memoryLabel";
-            memoryLabel.Size = new Size(2, 17);
+            memoryLabel.Size = new Size(2, 22);
             memoryLabel.TabIndex = 30;
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.Control;
-            ClientSize = new Size(710, 338);
+            ClientSize = new Size(554, 451);
             Controls.Add(memoryLabel);
             Controls.Add(buttonMemoryPlus);
             Controls.Add(buttonMemorySave);
@@ -418,9 +397,9 @@
             Controls.Add(button2);
             Controls.Add(button1);
             Controls.Add(textBox);
-            Margin = new Padding(3, 2, 3, 2);
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "Form1";
-            Text = "Form1";
+            Text = "Calculator";
             Load += Form1_Load;
             ResumeLayout(false);
             PerformLayout();

@@ -9,7 +9,6 @@ namespace CalculatorWinForms
         string selectedOperation = "";
         bool isOperationClicked = false;
         bool isErrorOccured = false;
-        bool noSecondArgument = false;
         string memory = "0";
 
         public Form1()
@@ -30,7 +29,6 @@ namespace CalculatorWinForms
                 isErrorOccured = false;
                 isOperationClicked = false;
             } 
-            //if (textBox.Text.Contains(E))
             Button pressedButton = (Button)sender;
             textBox.Text += pressedButton.Text;
             textBox.Text = double.Parse(textBox.Text).ToString();
@@ -71,7 +69,6 @@ namespace CalculatorWinForms
         private void SqrtClick(object sender, EventArgs e)
         {
             textBox.Text = Math.Sqrt(double.Parse(textBox.Text)).ToString();
-            //textBox.Text = Math.Sqrt(double.Parse(textBox.Text)).ToString();
         }
 
         private void PercentClick(object sender, EventArgs e)
@@ -142,7 +139,6 @@ namespace CalculatorWinForms
             memory = "0";
             isOperationClicked = false;
             isErrorOccured = false;
-            noSecondArgument = false;
 
             foreach (Control control in this.Controls)
             {
