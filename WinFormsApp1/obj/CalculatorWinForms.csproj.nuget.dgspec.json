@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\VS Projects\\CalculatorWinForms\\WinFormsApp1\\CalculatorWinForms.csproj": {}
+    "C:\\GitHubRepositories\\CalculatorWinForms\\WinFormsApp1\\CalculatorWinForms.csproj": {}
   },
   "projects": {
-    "C:\\VS Projects\\CalculatorWinForms\\WinFormsApp1\\CalculatorWinForms.csproj": {
+    "C:\\GitHubRepositories\\CalculatorWinForms\\WinFormsApp1\\CalculatorWinForms.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\VS Projects\\CalculatorWinForms\\WinFormsApp1\\CalculatorWinForms.csproj",
+        "projectUniqueName": "C:\\GitHubRepositories\\CalculatorWinForms\\WinFormsApp1\\CalculatorWinForms.csproj",
         "projectName": "CalculatorWinForms",
-        "projectPath": "C:\\VS Projects\\CalculatorWinForms\\WinFormsApp1\\CalculatorWinForms.csproj",
-        "packagesPath": "C:\\Users\\Matvey\\.nuget\\packages\\",
-        "outputPath": "C:\\VS Projects\\CalculatorWinForms\\WinFormsApp1\\obj\\",
+        "projectPath": "C:\\GitHubRepositories\\CalculatorWinForms\\WinFormsApp1\\CalculatorWinForms.csproj",
+        "packagesPath": "C:\\Users\\Матвей\\.nuget\\packages\\",
+        "outputPath": "C:\\GitHubRepositories\\CalculatorWinForms\\WinFormsApp1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Matvey\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Матвей\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

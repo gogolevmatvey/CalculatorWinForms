@@ -82,3 +82,20 @@ C:\VS Projects\CalculatorWinForms\WinFormsApp1\obj\Debug\net8.0-windows\refint\C
 C:\VS Projects\CalculatorWinForms\WinFormsApp1\obj\Debug\net8.0-windows\CalculatorWinForms.pdb
 C:\VS Projects\CalculatorWinForms\WinFormsApp1\obj\Debug\net8.0-windows\CalculatorWinForms.genruntimeconfig.cache
 C:\VS Projects\CalculatorWinForms\WinFormsApp1\obj\Debug\net8.0-windows\ref\CalculatorWinForms.dll
+C:\GitHubRepositories\CalculatorWinForms\WinFormsApp1\bin\Debug\net8.0-windows\CalculatorWinForms.exe
+C:\GitHubRepositories\CalculatorWinForms\WinFormsApp1\bin\Debug\net8.0-windows\CalculatorWinForms.deps.json
+C:\GitHubRepositories\CalculatorWinForms\WinFormsApp1\bin\Debug\net8.0-windows\CalculatorWinForms.runtimeconfig.json
+C:\GitHubRepositories\CalculatorWinForms\WinFormsApp1\bin\Debug\net8.0-windows\CalculatorWinForms.dll
+C:\GitHubRepositories\CalculatorWinForms\WinFormsApp1\bin\Debug\net8.0-windows\CalculatorWinForms.pdb
+C:\GitHubRepositories\CalculatorWinForms\WinFormsApp1\obj\Debug\net8.0-windows\CalculatorWinForms.Form1.resources
+C:\GitHubRepositories\CalculatorWinForms\WinFormsApp1\obj\Debug\net8.0-windows\CalculatorWinForms.csproj.GenerateResource.cache
+C:\GitHubRepositories\CalculatorWinForms\WinFormsApp1\obj\Debug\net8.0-windows\CalculatorWinForms.GeneratedMSBuildEditorConfig.editorconfig
+C:\GitHubRepositories\CalculatorWinForms\WinFormsApp1\obj\Debug\net8.0-windows\CalculatorWinForms.AssemblyInfoInputs.cache
+C:\GitHubRepositories\CalculatorWinForms\WinFormsApp1\obj\Debug\net8.0-windows\CalculatorWinForms.AssemblyInfo.cs
+C:\GitHubRepositories\CalculatorWinForms\WinFormsApp1\obj\Debug\net8.0-windows\CalculatorWinForms.csproj.CoreCompileInputs.cache
+C:\GitHubRepositories\CalculatorWinForms\WinFormsApp1\obj\Debug\net8.0-windows\CalculatorWinForms.sourcelink.json
+C:\GitHubRepositories\CalculatorWinForms\WinFormsApp1\obj\Debug\net8.0-windows\CalculatorWinForms.dll
+C:\GitHubRepositories\CalculatorWinForms\WinFormsApp1\obj\Debug\net8.0-windows\refint\CalculatorWinForms.dll
+C:\GitHubRepositories\CalculatorWinForms\WinFormsApp1\obj\Debug\net8.0-windows\CalculatorWinForms.pdb
+C:\GitHubRepositories\CalculatorWinForms\WinFormsApp1\obj\Debug\net8.0-windows\CalculatorWinForms.genruntimeconfig.cache
+C:\GitHubRepositories\CalculatorWinForms\WinFormsApp1\obj\Debug\net8.0-windows\ref\CalculatorWinForms.dll

@@ -10,7 +10,7 @@ namespace CalculatorWinForms
         bool isOperationClicked = false;
         bool isErrorOccured = false;
         bool noSecondArgument = false;
-        string memory = "";
+        string memory = "0";
 
         public Form1()
         {
@@ -54,13 +54,17 @@ namespace CalculatorWinForms
 
         private void OperationClick(object sender, EventArgs e)
         {
-            argument1 = double.Parse(textBox.Text);
-            Button pressedButton = (Button)sender;
-            selectedOperation = pressedButton.Text;
-            isOperationClicked = true;
-            if (argument2 != 0)
+            bool isParsed = double.TryParse(textBox.Text, out double parsedNumber);
+            if (isParsed)
             {
-                argument2 = 0;
+                argument1 = double.Parse(textBox.Text);
+                Button pressedButton = (Button)sender;
+                selectedOperation = pressedButton.Text;
+                isOperationClicked = true;
+                if (argument2 != 0)
+                {
+                    argument2 = 0;
+                }
             }
         }
 
@@ -135,7 +139,7 @@ namespace CalculatorWinForms
             argument1 = 0;
             argument2 = 0;
             selectedOperation = "";
-            memory = "";
+            memory = "0";
             isOperationClicked = false;
             isErrorOccured = false;
             noSecondArgument = false;
@@ -185,7 +189,7 @@ namespace CalculatorWinForms
 
         private void MemoryClearClick(object sender, EventArgs e)
         {
-            memory = "";
+            memory = "0";
             memoryLabel.Text = "";
         }
 
@@ -211,7 +215,7 @@ namespace CalculatorWinForms
 
         private void MemoryPlusClick(object sender, EventArgs e)
         {
-            memory = (double.Parse(memory) + double.Parse(textBox.Text)).ToString();
+                memory = (double.Parse(memory) + double.Parse(textBox.Text)).ToString();         
         }
 
         private void textBox_TextChanged(object sender, EventArgs e)
